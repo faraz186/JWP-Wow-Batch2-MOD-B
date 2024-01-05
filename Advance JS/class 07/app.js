@@ -3,7 +3,7 @@ console.log("hello class")
 const promise = new Promise((resolve, reject) => {
     const age = 20         
         
-    if (age > 18) {
+    if (age > 18) {         
         resolve("promise solve")
     } else {
         reject("promise reject")
