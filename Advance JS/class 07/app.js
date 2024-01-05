@@ -17,26 +17,24 @@ const promise = new Promise((resolve, reject) => {
         
 })
 
-// const fetchData = async () => {
+const fetchData = async () => {
+    try {
 
-//     try {
+        const data = await fetch('https://fakestoreapi.com/products/')
+            .then(res => res.json())
+        console.log(data)
 
-//         const data = await fetch('https://fakestoreapi.com/products/')
-//             .then(res => res.json())
-//         console.log(data)
+        // fetch('https://fakestoreapi.com/productssssssssssss/')
+        //     .then(res => res.json())
+        //     .then(res => console.log(res))
+        //     .catch(err => console.log(err))
 
-//         // fetch('https://fakestoreapi.com/productssssssssssss/')
-//         //     .then(res => res.json())
-//         //     .then(res => console.log(res))
-//         //     .catch(err => console.log(err))
+    } catch (error) {
+        console.log("catch error", error.message)
+    }
+}
 
-//     } catch (error) {
-//         console.log("catch error", error.message)
-//     }
-
-
-// }
-// fetchData()
+fetchData()
 
 // console.log("hello world")
 
