@@ -78,29 +78,29 @@ const std100 = new Std("Jaffar" , 22)
 console.log(std100.getAge())
 
 
-// class Std {
-//     constructor(firstName, lastName) {
-//         this.firstName = firstName;
-//         this.lastName = lastName;
+class Std {
+    constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
 
-//     }
-// }
-
-
-// class AddEmail extends Std {
-//     constructor(firstName, lastName, email) {
-//         super(firstName, lastName)
-//         this.email = email
-//     }
-// }
-// const std1 = new Std("JAffar", "Aman")
-// const std2 = new Std("Ali", "Muhammad")
+    }
+}
 
 
-// const newstd1 = new AddEmail("Jaffar", "Aman", "amanjaffar50@gmail.com")
-// console.log(std1)
-// console.log(std2)
-// console.log(newstd1 , "newstd1")
+class AddEmail extends Std {
+    constructor(firstName, lastName, email) {
+        super(firstName, lastName)
+        this.email = email
+    }
+}
+const std1 = new Std("JAffar", "Aman")
+const std2 = new Std("Ali", "Muhammad")
+
+
+const newstd1 = new AddEmail("Jaffar", "Aman", "amanjaffar50@gmail.com")
+console.log(std1)
+console.log(std2)
+console.log(newstd1 , "newstd1")
 
 
 const obj1 = {
