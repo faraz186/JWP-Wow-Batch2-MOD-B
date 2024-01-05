@@ -9,14 +9,13 @@ const promise = new Promise((resolve, reject) => {
         reject("promise reject")
     }
         
+}).then((result)=>{
+    console.log("then block" , result)
+})
+.catch((error)=>{
+    console.log("catch block" , error)
 
-// }).then((result)=>{
-//     console.log("then block" , result)
-// })
-// .catch((error)=>{
-//     console.log("catch block" , error)
-
-// })
+})
 
 // const fetchData = async () => {
 
