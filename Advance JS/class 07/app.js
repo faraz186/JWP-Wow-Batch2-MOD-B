@@ -64,18 +64,18 @@ console.log(Std)
 
 
 // classes
-// class Std{
-//     constructor(name , age){
-//             this.name = name;
-//             this.age = age;
-//     }
-//     getAge(){
-//         return this.age
-//     }
-// }
-// const std100 = new Std("Jaffar" , 22)
-// console.log(std100.getAge())
 
+class Std{
+    constructor(name , age){
+            this.name = name;
+            this.age = age;
+    }
+    getAge(){
+        return this.age
+    }
+}
+const std100 = new Std("Jaffar" , 22)
+console.log(std100.getAge())
 
 
 // class Std {
