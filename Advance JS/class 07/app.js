@@ -13,7 +13,7 @@ const promise = new Promise((resolve, reject) => {
     console.log("then block" , result)
 })
 .catch((error)=>{
-    console.log("catch block" , error)
+    console.log("catch block" , error)        
         
 })
 
