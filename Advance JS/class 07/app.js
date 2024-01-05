@@ -23,7 +23,7 @@ const fetchData = async () => {
             .then(res => res.json())
         console.log(data)
 
-        // fetch('https://fakestoreapi.com/productssssssssssss/')
+        // fetch('https://fakestoreapi.com/products/')
         //     .then(res => res.json())
         //     .then(res => console.log(res))
         //     .catch(err => console.log(err))
