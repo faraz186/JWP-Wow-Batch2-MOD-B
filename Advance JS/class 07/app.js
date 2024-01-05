@@ -1,5 +1,5 @@
 console.log("hello class")
-
+            
 const promise = new Promise((resolve, reject) => {
     const age = 20            
         
