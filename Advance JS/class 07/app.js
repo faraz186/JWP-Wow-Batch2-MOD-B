@@ -107,7 +107,6 @@ const obj1 = {
     name: "Jaffar Aman"
 }
 
-
 const obj2 = {
     name: "bilal"
 }
@@ -115,8 +114,6 @@ const obj2 = {
 export {
     obj1,
     obj2,
-
-
 }
 
-// export default obj
+export default obj
