@@ -8,7 +8,7 @@ const promise = new Promise((resolve, reject) => {
     } else {
         reject("promise reject")
     }
-
+        
 
 // }).then((result)=>{
 //     console.log("then block" , result)
