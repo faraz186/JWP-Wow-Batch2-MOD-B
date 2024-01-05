@@ -14,7 +14,7 @@ const promise = new Promise((resolve, reject) => {
 })
 .catch((error)=>{
     console.log("catch block" , error)
-
+        
 })
 
 // const fetchData = async () => {
