@@ -35,35 +35,32 @@ const fetchData = async () => {
 
 fetchData()
 
-// console.log("hello world")
+console.log("hello world")
 
-
-// var arr = [1,2,3,4]
-// var arr2 = [...arr]
-// arr2.push("jaffar")
-// console.log(arr ,"arr")
-// console.log(arr2 ,"arr2")
-
+var arr = [1,2,3,4]
+var arr2 = [...arr]
+arr2.push("jaffar")
+console.log(arr ,"arr")
+console.log(arr2 ,"arr2")
 
 // classes
 
+var std1  = {
+    name : "jaffar",
+    age : 22
+}
 
-// var std1  = {
-//     name : "jaffar",
-//     age : 22
-// }
+function Std(name , age){
+        this.name = name;
+        this.age = age
+        this.getage = ()=>{
 
-// function Std(name , age){
-//         this.name = name;
-//         this.age = age
-//         this.getage = ()=>{
+        }
+}
 
-//         }
-// }
-
-// const std10 = new Std("Bilal" , 25)
-// console.log(std10)
-// console.log(Std)
+const std10 = new Std("Bilal" , 25)
+console.log(std10)
+console.log(Std)
 
 
 // classes
