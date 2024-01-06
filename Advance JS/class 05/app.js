@@ -1,47 +1,47 @@
-// var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
+var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
 
-// const findValue = cities.find((value, index) => {
-//     if (value.toLowerCase() === "karachi") {
-//         return true
-//     }
-// })
-// console.log("findValue", findValue)
-
-
-
-// const stdArr = [{ name: "Jaffar", age: 15, }, { name: "Sufiyan", age: 32, }, { name: "Bilal", age: 16, },]
-
-
-// const filterStd = stdArr.filter((value, index) => {
-//     console.log("value", value)
-//     if (value.age >= 18) {
-//         return true
-//     }
-// })
-// console.log("filterStd", filterStd)
+const findValue = cities.find((value, index) => {
+    if (value.toLowerCase() === "karachi") {
+        return true
+    }
+})
+console.log("findValue", findValue)
 
 
 
+const stdArr = [{ name: "Jaffar", age: 15, }, { name: "Sufiyan", age: 32, }, { name: "Bilal", age: 16, },]
 
-// const filterValue = cities.filter((value, index) => {
-//     console.log(value)
-//     if (value === "karachi") {
-//         return true
-//     }
-// })
 
-// console.log("filterValue", filterValue)
+const filterStd = stdArr.filter((value, index) => {
+    console.log("value", value)
+    if (value.age >= 18) {
+        return true
+    }
+})
+console.log("filterStd", filterStd)
 
-// var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
-// var cities = [1, 2, 3, 45, 6, 78]
 
-// const newArr = cities.forEach((value, index) => {
-//     console.log(value)
-//     return value * 2
 
-// })
-// console.log("cities", cities)
-// console.log("newArr", newArr)
+
+const filterValue = cities.filter((value, index) => {
+    console.log(value)
+    if (value === "karachi") {
+        return true
+    }
+})
+
+console.log("filterValue", filterValue)
+
+var cities = ["karachi", "lahore", "Multan", "islamabad", "karachi"]
+var cities = [1, 2, 3, 45, 6, 78]
+
+const newArr = cities.forEach((value, index) => {
+    console.log(value)
+    return value * 2
+
+})
+console.log("cities", cities)
+console.log("newArr", newArr)
 
 
 // primitive
