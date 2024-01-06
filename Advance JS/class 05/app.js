@@ -58,64 +58,64 @@ console.log("newArr", newArr)
 
 
 
-// var str = "Jaffar Aman"
-// var b = str
+var str = "Jaffar Aman"
+var b = str
 
-// str = "Jaffar"
-// console.log("str", str)
-// console.log("b", b)
-
-
-// const arr = [1, 2, 3]   // reference = 420
-// const b = [...arr]  //420
-
-// arr.push(4)
-
-// console.log("arr", arr)
-// console.log("b", b)
+str = "Jaffar"
+console.log("str", str)
+console.log("b", b)
 
 
+const arr = [1, 2, 3]   // reference = 420
+const b = [...arr]  //420
 
-// const foo = (num1, num2, num3, ...args) => {
-//     console.log(args, "args")
-//     console.log("foo", num1, num2)
-// }
+arr.push(4)
 
-// foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+console.log("arr", arr)
+console.log("b", b)
 
 
 
+const foo = (num1, num2, num3, ...args) => {
+    console.log(args, "args")
+    console.log("foo", num1, num2)
+}
 
-// console.log("HELLO WORLD 1")
-
-// setTimeout(() => {
-//     console.log("run after 2 sec")
-//     console.log("HELLO WORLD 2")
-
-// }, 2000)
-
-
-// console.log("HELLO WORLD 3")
+foo(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 
 
-// const promise = new Promise((resolve, reject) => {
-//     const isZinger = true
-//     if (isZinger) {
-//         resolve(
-//             "Thanks faraz bhai "
-//         )
-//     } else {
-//         reject("yeh kya bt howi boss!")
-//     }
-// })
-//     .then((resolve) => {
-//         console.log("resolve", resolve)
-//     })
-//     .catch((reject) => {
-//         console.log("reject", reject)
 
-//     })
+console.log("HELLO WORLD 1")
+
+setTimeout(() => {
+    console.log("run after 2 sec")
+    console.log("HELLO WORLD 2")
+
+}, 2000)
+
+
+console.log("HELLO WORLD 3")
+
+
+
+const promise = new Promise((resolve, reject) => {
+    const isZinger = true
+    if (isZinger) {
+        resolve(
+            "Thanks faraz bhai "
+        )
+    } else {
+        reject("yeh kya bt howi boss!")
+    }
+})
+    .then((resolve) => {
+        console.log("resolve", resolve)
+    })
+    .catch((reject) => {
+        console.log("reject", reject)
+
+    })
 
 
 
